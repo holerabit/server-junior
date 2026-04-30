@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en, ru">
+    <head> 
+        <meta charset="UTF-8"/>
+        <meta name="author" content="holerabit-github"/>
+        <meta name="description" content="A learning project about Servers - June Web Dev Training" />
+        <title>Server Site</title>
+        <link rel="icon" type="image/png" href="image/favicon.png">
+        <link href="style/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1><b>Server is</b></h1>
+            <nav>
+                <a href="#first-topic">Brief</a>
+                <a href="#second-topic">Types</a>
+                <a href="#third-topic">Hardware</a>
+                <a href="#fourth-topic">Comparison</a>                
+                <a href="#end-topic">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section id="first-topic">
+                <h2>What is a server? <i>(In brief)</i></h2>
+                <p>The Server <i>(In programming)</i> is <u><strong>Software</strong> or <strong>Special computer</strong> processing customer inquiries in a <strong>Net</strong></u>.</p>
+                <p>There are several types of <strong>Servers</strong> in total. Here are some types:</p>
+                <ol>
+                    <li>Web Servers <i>(Apache, Nginx)</i></li>
+                    <li>Database Servers <i>(PostgreSQL, MySQL)</i></li>
+                    <li>File Servers <i>(FTP, SMB)</i></li>
+                    <li>Mail Servers <i>(Postfix, Exim)</i></li>
+                </ol>
+                <figure>
+                    <img src="image/server-web.jpg" alt="Web Server rack">
+                    <figcaption>Fig 1. Web Server Infrastructure</figcaption>
+                </figure>
+            </section>
+
+            <section id="second-topic">
+                <h2>More about Server Types</h2>
+                <dl>
+                    <dt><strong>Web Server</strong>:</dt>
+                    <dd><u>is like a digital waiter</u>. It takes your request <i>(URL)</i>, goes to the kitchen <i>(storage)</i>, and brings you back a plate with a website.</dd>
+                    <dt><strong>Database Server</strong>:</dt>
+                    <dd><u>is a giant digital warehouse</u>. It stores millions of rows of data and speaks <strong><code>SQL</code></strong>.</dd>
+                    <dt><strong>Application Server</strong>:</dt>
+                    <dd><u>is the <i><q>brain</q></i></u>. It calculates logic and connects the Waiter with the Warehouse.</dd>
+                </dl>
+                <figure>
+                    <img src="image/server-database.jpg" alt="Database Server storage">
+                    <figcaption>Fig 2. Database Server Management</figcaption>
+                </figure>
+            </section>
+
+            <section id="third-topic">
+                <h2>Server Hardware</h2>
+                <p><strong>Server Hardware</strong> consists of physical components designed for high-performance and reliability.</p>
+                <dl>
+                    <dt><strong><code>CPU</code></strong>:</dt>
+                    <dd>High-core-count processors (e.g., Intel Xeon, AMD EPYC).</dd>
+                    <dt><strong><code>RAM</code></strong>:</dt>
+                    <dd>Large capacities of ECC memory to prevent corruption.</dd>
+                    <dt><strong><code>Storage</code></strong>:</dt>
+                    <dd>RAID-configured HDDs or NVMe SSDs.</dd>
+                </dl>
+                <figure>
+                    <img src="image/server-schem.jpg" alt="Server Hardware Scheme">
+                    <figcaption>Fig 3. Server Hardware Architecture</figcaption>
+                </figure>
+            </section>
+
+            <section id="fourth-topic">
+                <h2>Server Comparison</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Web vs Database Server Comparison</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Name Server</th>
+                            <td><strong>Database</strong></td>
+                            <td><strong>Web</strong></td>
+                        </tr>
+                        <tr>
+                            <th>Primary Goal</th>
+                            <td>Securely store and manage data.</td>
+                            <td>Make information accessible over the internet.</td>
+                        </tr>
+                        <tr>
+                            <th>Popularity</th>
+                            <td>Focused Platforms</td>
+                            <td>Global Reach</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer id="end-topic">
+            <p>Site last updated: <time datetime="2026-04-30">April 30, 2026</time></p>
+            <p id="contact-gmail"><a href="mailto:mediaarchix@gmail.com">Contact the developer via Gmail</a></p> 
+        </footer>
+        <script src="script/main.js"></script>
+    </body>
+</html>
